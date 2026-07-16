@@ -1,0 +1,22 @@
+{
+  "name": "sofi-bot-finanzas",
+  "version": "1.0.0",
+  "description": "Sofi - Bot de WhatsApp que enseña finanzas e inversión desde cero",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Para mi amor 💛",
+  "license": "MIT"
+}
